@@ -27,7 +27,7 @@ A full-stack application that enables citizens to report disasters in real-time 
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/USERNAME/geotriage.git
+git clone https://github.com/papatripat/geotriage.git
 cd geotriage
 npm install
 ```
