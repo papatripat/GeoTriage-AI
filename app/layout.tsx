@@ -38,9 +38,7 @@ export default function RootLayout({
         <nav className="fixed top-0 left-0 right-0 z-50 border-b border-white/10 bg-gray-950/80 backdrop-blur-xl">
           <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
             <a href="/" className="flex items-center gap-2">
-              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-500 to-cyan-500 text-sm font-black text-white shadow-lg shadow-emerald-500/25">
-                GT
-              </div>
+              <img src="/logo.png" alt="GeoTriage Logo" className="h-10 w-10 rounded-xl bg-white p-1 object-cover" />
               <span className="text-lg font-bold tracking-tight">
                 <span className="gradient-text">Geo</span>
                 <span className="text-gray-300">Triage</span>
