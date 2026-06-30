@@ -42,25 +42,41 @@ export default function RootLayout({
               <span className="text-lg font-bold tracking-tight">
                 <span className="gradient-text">Geo</span>
                 <span className="text-gray-300">Triage</span>
-                <span className="ml-1 text-xs font-medium text-emerald-400/80">
+                <span className="ml-1 text-xs font-medium text-blue-400/80">
                   AI
                 </span>
               </span>
             </a>
-            <div className="flex items-center gap-1">
+            
+            {/* Middle Links */}
+            <div className="hidden md:flex items-center gap-1 rounded-full bg-white/5 px-2 py-1 border border-white/10">
               <a
                 href="/"
-                className="rounded-lg px-3 py-2 text-sm font-medium text-gray-400 transition-all hover:bg-white/5 hover:text-white"
+                className="rounded-full px-4 py-1.5 text-sm font-medium text-blue-400 bg-blue-400/10 transition-all hover:bg-white/10"
               >
-                <span className="mr-1.5">📸</span>
-                Lapor
+                🏠 Beranda
+              </a>
+              <a
+                href="/lapor"
+                className="rounded-full px-4 py-1.5 text-sm font-medium text-gray-400 transition-all hover:bg-white/10 hover:text-white"
+              >
+                📸 Lapor
               </a>
               <a
                 href="/dashboard"
-                className="rounded-lg px-3 py-2 text-sm font-medium text-gray-400 transition-all hover:bg-white/5 hover:text-white"
+                className="rounded-full px-4 py-1.5 text-sm font-medium text-gray-400 transition-all hover:bg-white/10 hover:text-white"
               >
-                <span className="mr-1.5">🗺️</span>
-                Dashboard
+                🗺️ Dashboard
+              </a>
+            </div>
+
+            {/* Right Buttons */}
+            <div className="flex items-center gap-3">
+              <a href="#" className="text-sm font-medium text-gray-400 hover:text-white transition-colors">
+                Masuk
+              </a>
+              <a href="#" className="rounded-full bg-blue-600 px-4 py-1.5 text-sm font-bold text-white transition-all hover:bg-blue-500 hover:scale-105">
+                Daftar
               </a>
             </div>
           </div>

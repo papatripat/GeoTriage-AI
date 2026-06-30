@@ -133,7 +133,7 @@ export default function MapDashboard() {
     return (
       <div className="flex h-[80vh] items-center justify-center">
         <div className="text-center">
-          <div className="spinner !h-10 !w-10 text-emerald-400 mx-auto mb-4" />
+          <div className="spinner !h-10 !w-10 text-blue-400 mx-auto mb-4" />
           <p className="text-gray-400">Memuat data bencana...</p>
         </div>
       </div>
